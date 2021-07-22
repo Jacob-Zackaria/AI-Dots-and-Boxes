@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SearchSpace">
+      <UniqueIdentifier>{cd3f4f2f-1c9c-4a09-9c28-c2b8fc8af523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Players">
+      <UniqueIdentifier>{bbf7384e-4905-4886-8fa7-dc605045807c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{fff1172d-bde4-4575-82d0-d5f9142e4ab2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Board.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Players\AIPlayer.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Players\HumanPlayer.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchSpace\SearchNode.cpp">
+      <Filter>Source Files\SearchSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchSpace\SearchNodeData.cpp">
+      <Filter>Source Files\SearchSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchSpace\SearchSpace.cpp">
+      <Filter>Source Files\SearchSpace</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Board.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\AIPlayer.h">
+      <Filter>Source Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\HumanPlayer.h">
+      <Filter>Source Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\Player.h">
+      <Filter>Source Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchSpace\DepthFirstSearch.h">
+      <Filter>Source Files\SearchSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchSpace\SearchNode.h">
+      <Filter>Source Files\SearchSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchSpace\SearchNodeData.h">
+      <Filter>Source Files\SearchSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchSpace\SearchSpace.h">
+      <Filter>Source Files\SearchSpace</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
